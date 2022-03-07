@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    background-color: #222222;
+    color: #FFFFFF;
+    padding: 18px;
+}
+.wrap{
+    width: 1154px;
+    outline: 1px solid red;
+    margin: 0 auto;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cover{
+    background-color: #F1E4E6;
+    padding: 18px;
+}
+.cover-wrap{
+    display:flex;
+}
+.colonka-header-left{
+    position: absolute;
+    top: 17px;
+    left: 84%;
+}
+
